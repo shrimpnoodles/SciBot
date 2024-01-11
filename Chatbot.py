@@ -56,7 +56,7 @@ retriever.get_sentence_embedding_dimension()
 
 
 #initialize pinecone
-api_key = os.getenv("d6d2efa3-9826-43b6-a507-b7f0eec2dd41") or "d6d2efa3-9826-43b6-a507-b7f0eec2dd41"
+api_key = os.getenv("INSERT_YOUR_API_KEY") or "INSERT_YOUR_API_KEY"
 env = os.getenv("gcp-starter") or "gcp-starter"
 
 pinecone.init(api_key = api_key, environment = env)
